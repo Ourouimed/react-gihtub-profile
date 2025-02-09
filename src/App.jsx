@@ -14,7 +14,6 @@ const App = ()=>{
         setDataLoaded(true)
       }
       catch(error){
-        console.log(error)
         setError(error)
         setDataLoaded(false)
       }
